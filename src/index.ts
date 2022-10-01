@@ -1,4 +1,3 @@
-if (DEBUG) {
-  console.log(123)
-  console.log(234)
+export function test(num1: number, num2: number) {
+  return num1 + num2
 }
